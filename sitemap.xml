@@ -1,18 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://meetrowka.pl/</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-01</lastmod>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://meetrowka.pl/img/baner-1-wnetrze.jpg</image:loc>
+      <image:title>Jasna jadalnia z okrągłym stołem – projekt wnętrza MEETRÓWKA, projektant wnętrz Gdańsk</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://meetrowka.pl/img/okladka-cieply-minimalizm-stol.jpg</image:loc>
+      <image:title>Projekt wnętrza w stylu ciepły minimalizm – MEETRÓWKA Gdańsk</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://meetrowka.pl/img/baner-2-tiny-house.jpg</image:loc>
+      <image:title>Tiny House w naturze – projekt i realizacja małego domku MEETRÓWKA</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://meetrowka.pl/img/baner-3-wnetrze.jpg</image:loc>
+      <image:title>Łazienka z kamienną umywalką – projekt wnętrza MEETRÓWKA Gdańsk</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://meetrowka.pl/img/zespol-justyna.jpg</image:loc>
+      <image:title>Justyna Wilkowska – architektka i projektantka wnętrz, Gdańsk, Gdynia, Sopot</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://meetrowka.pl/img/zespol-lukasz.jpg</image:loc>
+      <image:title>Łukasz Wilkowski – kierownik budowy z uprawnieniami, Trójmiasto</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://meetrowka.pl/wnetrza.html</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-01</lastmod>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://meetrowka.pl/img/wnetrza-baner.jpg</image:loc>
+      <image:title>Jasna jadalnia – projekt wnętrz Trójmiasto, MEETRÓWKA</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://meetrowka.pl/img/okladka-cieply-minimalizm-stol.jpg</image:loc>
+      <image:title>Projekt wnętrza w stylu ciepły minimalizm – MEETRÓWKA Gdańsk</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://meetrowka.pl/img/portfolio/wnetrze-tiny-house-okladka.jpg</image:loc>
+      <image:title>Wnętrze Tiny House – projekt wnętrza małego domku</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://meetrowka.pl/img/portfolio/taupe-vibe-okladka.jpg</image:loc>
+      <image:title>Ciepła szarość – projekt wnętrz, realizacja 2023</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://meetrowka.pl/img/portfolio/nuta-koloru-okladka.jpg</image:loc>
+      <image:title>Nuta Koloru – projekt wnętrz, realizacja 2023</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://meetrowka.pl/img/portfolio/mokka-mood-okladka.jpg</image:loc>
+      <image:title>Kawowy nastrój – projekt wnętrz</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://meetrowka.pl/img/portfolio/modern-classic-okladka.jpg</image:loc>
+      <image:title>Nowoczesna klasyka – projekt strefy dziennej</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://meetrowka.pl/budowa-i-male-domki.html</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-01</lastmod>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://meetrowka.pl/img/baner-2-tiny-house.jpg</image:loc>
+      <image:title>Tiny House w naturze – projekt Tiny House i kierownik budowy Trójmiasto</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://meetrowka.pl/img/zespol-meetrowki.jpg</image:loc>
+      <image:title>Justyna i Łukasz Wilkowscy – zespół MEETRÓWKI</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://meetrowka.pl/img/okladka-tiny-house.jpg</image:loc>
+      <image:title>Tiny House z tarasem – realizacja 2026, MEETRÓWKA</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://meetrowka.pl/img/portfolio/domek-na-modulach-okladka.jpg</image:loc>
+      <image:title>Domek na modułach – projekt Tiny House</image:title>
+    </image:image>
   </url>
 </urlset>
