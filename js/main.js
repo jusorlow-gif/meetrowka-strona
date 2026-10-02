@@ -52,6 +52,26 @@
     document.addEventListener('keydown', function (e) {
       if (e.key === 'Escape') setOpen(false);
     });
+
+    // Telefon i tablet (menu z hamburgerem): przy przewijaniu w dół pasek się chowa,
+    // przy przewijaniu w górę od razu się wysuwa; przy otwartym menu i na samej górze strony zawsze widoczny.
+    var waski = window.matchMedia('(max-width: 1279px)');
+    var ostatni = window.pageYOffset;
+    var naScroll = function () {
+      var y = Math.max(0, window.pageYOffset);
+      var roznica = y - ostatni;
+      if (!waski.matches || header.classList.contains('is-open') || y < header.offsetHeight) {
+        header.classList.remove('is-hidden');
+      } else if (roznica > 6) {
+        header.classList.add('is-hidden');
+      } else if (roznica < -6) {
+        header.classList.remove('is-hidden');
+      }
+      header.classList.toggle('is-stuck', waski.matches && y > 0);
+      if (Math.abs(roznica) > 6 || y < header.offsetHeight) ostatni = y;
+    };
+    window.addEventListener('scroll', naScroll, { passive: true });
+    naScroll();
   }
 
   // Baner główny: zdjęcia zmieniają się same co 2 s (przenikanie + Ken Burns w CSS), kropki do przełączania
