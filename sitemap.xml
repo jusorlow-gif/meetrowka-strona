@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://meetrowka.pl/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://meetrowka.pl/img/baner-1-wnetrze.jpg</image:loc>
@@ -31,7 +31,7 @@
   </url>
   <url>
     <loc>https://meetrowka.pl/wnetrza.html</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://meetrowka.pl/img/wnetrza-baner.jpg</image:loc>
@@ -64,7 +64,7 @@
   </url>
   <url>
     <loc>https://meetrowka.pl/budowa-i-male-domki.html</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://meetrowka.pl/img/baner-2-tiny-house.jpg</image:loc>
