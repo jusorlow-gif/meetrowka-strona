@@ -561,3 +561,16 @@ a.card:hover { box-shadow: 0 18px 40px -28px rgba(46, 35, 32, .35); }
   .btn, .btng, .btn2 { padding: 0 22px; }
   .how__body .btn, .cta-row .btn, .card--row .btng { width: 100%; }
 }
+
+/* Baner zgody na cookies */
+.zgoda { position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 1000; max-width: 760px; margin: 0 auto; background: #ffffff; color: #33251F; border-radius: 14px; box-shadow: 0 10px 40px rgba(0, 0, 0, .18); padding: 18px 22px; display: flex; gap: 18px; align-items: center; }
+.zgoda__txt { margin: 0; font-size: 14px; line-height: 1.5; }
+.zgoda__btns { display: flex; gap: 10px; flex: none; }
+.zgoda .btn { padding: 10px 18px; font-size: 14px; white-space: nowrap; }
+@media (max-width: 640px) { .zgoda { flex-direction: column; align-items: stretch; } .zgoda__btns { justify-content: flex-end; } }
+.footer__legal a { color: #CFC6BF; text-decoration: underline; }
+/* Polityka prywatności */
+.polityka { max-width: 820px; margin: 0 auto; padding: 140px 24px 80px; }
+.polityka h1 { margin-bottom: 8px; }
+.polityka h2 { font-size: 22px; margin: 36px 0 10px; }
+.polityka p, .polityka li { line-height: 1.7; }

@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Polityka prywatności i cookies | MEETRÓWKA</title>
+<meta name="description" content="Polityka prywatności i plików cookies strony meetrowka.pl – jakie dane zbieramy, w jakim celu i jakie masz prawa.">
+<link rel="canonical" href="https://meetrowka.pl/polityka-prywatnosci.html">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Lora:ital,wght@0,400;0,500;0,600;1,400&amp;display=swap">
+<link rel="stylesheet" href="css/style.css">
+<script>
+/* Tryb animacji: .anim = pełne efekty, .calm = w systemie „ogranicz ruch” (tylko przenikanie).
+   ?animacje=1 wymusza pełne efekty, ?animacje=0 wyłącza wszystkie, ?animacje=auto wraca do ustawień systemu. */
+(function (d, w) {
+  var tryb = '';
+  try {
+    var m = /[?&]animacje=(1|0|auto)/.exec(location.search);
+    if (m) { if (m[1] === 'auto') sessionStorage.removeItem('animacje'); else sessionStorage.setItem('animacje', m[1]); }
+    tryb = sessionStorage.getItem('animacje') || '';
+  } catch (e) {}
+  var spokojnie = w.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  d.className = 'js ' + (tryb === '1' ? 'anim' : tryb === '0' ? 'bez-animacji' : spokojnie ? 'calm' : 'anim');
+})(document.documentElement, window);
+</script>
+</head>
+<body>
+
+<header class="header">
+  <a class="header__logo" href="index.html" aria-label="MEETRÓWKA, strona główna"><img src="img/logo-bordowe.png" alt="MEETRÓWKA" width="640" height="138"></a>
+  <nav class="nav" id="menu" aria-label="Menu główne">
+    <a href="wnetrza.html" aria-current="page">Wnętrza prywatne</a>
+    <a href="budowa-i-male-domki.html">Budowa i małe domki</a>
+    <a href="index.html#portfolio">Portfolio</a>
+    <a href="index.html#onas">O nas</a>
+    <a href="#kontakt">Kontakt</a>
+    <div class="nav__extra">
+      <a class="btn btn--line" href="#kontakt">Umów kawę</a>
+      <div class="nav__icons">
+        <a class="ico" href="tel:536234894" aria-label="Zadzwoń"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"></path></svg></a>
+        <a class="ico" href="mailto:meetrowka@gmail.com" aria-label="Napisz e-mail"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg></a>
+        <a class="ico" href="https://www.instagram.com/meetrowka/" target="_blank" rel="noopener" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="0.6" fill="currentColor"></circle></svg></a>
+        <a class="ico" href="https://www.facebook.com/people/Meetr%C3%B3wka-Projektowanie-Wn%C4%99trz-Inwestycyjnych/61566533057697/" target="_blank" rel="noopener" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z"></path></svg></a>
+      </div>
+    </div>
+  </nav>
+  <div class="header__tools">
+    <a class="btn btn--line" href="#kontakt">Umów kawę</a>
+    <button class="burger" type="button" aria-label="Otwórz menu" aria-expanded="false" aria-controls="menu">
+      <svg class="bars" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+      <svg class="x" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"></path></svg>
+    </button>
+  </div>
+</header>
+
+
+<main class="polityka">
+<p class="eyebrow">Informacje prawne</p>
+<h1>Polityka prywatności i plików cookies</h1>
+<p>Obowiązuje od 14 października 2026 r.</p>
+
+<h2>1. Kto jest administratorem danych</h2>
+<p>Administratorem Twoich danych osobowych jest MEETRÓWKA z siedzibą w Gdańsku. W sprawach dotyczących danych osobowych możesz pisać na adres <a href="mailto:meetrowka@gmail.com">meetrowka@gmail.com</a> lub zadzwonić pod numer <a href="tel:536234894">536 234 894</a>.</p>
+
+<h2>2. Jakie dane zbieramy i po co</h2>
+<ul>
+<li><strong>Kontakt z nami</strong> – gdy dzwonisz, piszesz e-mail lub SMS albo umawiasz spotkanie przez kalendarz, przetwarzamy dane, które nam przekazujesz (np. imię, numer telefonu, adres e-mail, treść wiadomości), aby odpowiedzieć na zapytanie i przygotować ofertę (art. 6 ust. 1 lit. b i f RODO).</li>
+<li><strong>Statystyki odwiedzin</strong> – za Twoją zgodą korzystamy z Google Analytics, aby wiedzieć, ile osób odwiedza stronę i które podstrony są najczęściej oglądane (art. 6 ust. 1 lit. a RODO).</li>
+<li><strong>Mierzenie skuteczności reklam</strong> – za Twoją zgodą korzystamy z Piksela Meta (Facebook, Instagram), aby sprawdzać, ile osób trafia do nas z tych serwisów (art. 6 ust. 1 lit. a RODO).</li>
+</ul>
+
+<h2>3. Pliki cookies</h2>
+<p>Strona zapisuje w Twojej przeglądarce informację o wyborze dotyczącym cookies – to jest niezbędne, aby baner nie pojawiał się za każdym razem. Pliki cookies Google Analytics i Piksela Meta zapisywane są <strong>dopiero po kliknięciu „Akceptuję”</strong>. Jeśli wybierzesz „Tylko niezbędne”, narzędzia te nie są uruchamiane.</p>
+<p>Swój wybór możesz w każdej chwili zmienić, klikając <a href="#" data-cookies>Ustawienia cookies</a> (link znajduje się też w stopce każdej podstrony). Cookies możesz również usunąć lub zablokować w ustawieniach swojej przeglądarki.</p>
+
+<h2>4. Komu przekazujemy dane</h2>
+<p>Dane mogą trafiać do dostawców usług, z których korzystamy: Google Ireland Ltd. (Google Analytics, poczta Gmail, Kalendarz Google), Meta Platforms Ireland Ltd. (Piksel Meta) oraz GitHub Inc. (hosting strony). Część tych firm może przetwarzać dane poza Europejskim Obszarem Gospodarczym – w takim przypadku odbywa się to na podstawie decyzji Komisji Europejskiej (EU-US Data Privacy Framework) lub standardowych klauzul umownych.</p>
+
+<h2>5. Jak długo przechowujemy dane</h2>
+<p>Dane z korespondencji przechowujemy przez czas potrzebny do obsługi zapytania lub realizacji współpracy, a następnie przez okres wymagany przepisami lub przedawnienia ewentualnych roszczeń. Dane statystyczne Google Analytics przechowywane są zgodnie z ustawieniami usługi (maksymalnie 14 miesięcy). Dane Piksela Meta przetwarzane są zgodnie z zasadami Meta.</p>
+
+<h2>6. Twoje prawa</h2>
+<p>Masz prawo do dostępu do swoich danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia oraz do wniesienia sprzeciwu. Zgodę na cookies możesz w każdej chwili wycofać – nie wpływa to na zgodność z prawem przetwarzania przed jej wycofaniem. Przysługuje Ci również prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych.</p>
+
+<h2>7. Zmiany polityki</h2>
+<p>Polityka może być aktualizowana, np. w związku ze zmianą przepisów lub narzędzi, z których korzystamy. Aktualna wersja jest zawsze dostępna na tej stronie.</p>
+</main>
+
+
+<footer class="footer" id="kontakt">
+  <picture><source srcset="img/stopka-tlo.webp" type="image/webp"><img class="footer__bg" src="img/stopka-tlo.jpg" alt="" width="2000" height="1333" loading="lazy"></picture>
+  <div class="footer__panel">
+    <p class="eyebrow eyebrow--light">Kontakt</p>
+    <h2>Sprawdź, jak możemy Ci pomóc</h2>
+    <a class="btn btn--ghost btn--big" href="https://calendar.app.google/CusMsuqgQZD4Ki3GA" target="_blank" rel="noopener">Wybierz termin kawy w kalendarzu</a>
+    <p class="footer__or">lub <a href="tel:536234894">zadzwoń</a><span>|</span><a href="sms:536234894">napisz SMS-a</a><span>|</span><a href="mailto:meetrowka@gmail.com">maila</a></p>
+    <a class="footer__tel" href="tel:536234894">536 234 894</a>
+    <a class="footer__mail" href="mailto:meetrowka@gmail.com">meetrowka@gmail.com</a>
+    <p class="footer__where">Stacjonarnie Trójmiasto | dojeżdżamy do innych miast</p>
+    <div class="footer__icons footer__icons--in">
+      <a class="ico" href="tel:536234894" aria-label="Zadzwoń"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"></path></svg></a>
+    <a class="ico" href="mailto:meetrowka@gmail.com" aria-label="Napisz e-mail"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg></a>
+    <a class="ico" href="https://www.instagram.com/meetrowka/" target="_blank" rel="noopener" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="0.6" fill="currentColor"></circle></svg></a>
+    <a class="ico" href="https://www.facebook.com/people/Meetr%C3%B3wka-Projektowanie-Wn%C4%99trz-Inwestycyjnych/61566533057697/" target="_blank" rel="noopener" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z"></path></svg></a>
+    </div>
+    <div class="footer__brand">
+      <img src="img/logo-biale.png" alt="MEETRÓWKA" width="640" height="138" loading="lazy">
+      <span>Wnętrza prywatne i małe domki</span>
+    </div>
+    <p class="footer__legal">© 2026 Justyna Wilkowska · MEETRÓWKA</p>
+  </div>
+  <div class="footer__icons">
+    <a class="ico" href="tel:536234894" aria-label="Zadzwoń"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"></path></svg></a>
+    <a class="ico" href="mailto:meetrowka@gmail.com" aria-label="Napisz e-mail"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg></a>
+    <a class="ico" href="https://www.instagram.com/meetrowka/" target="_blank" rel="noopener" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="0.6" fill="currentColor"></circle></svg></a>
+    <a class="ico" href="https://www.facebook.com/people/Meetr%C3%B3wka-Projektowanie-Wn%C4%99trz-Inwestycyjnych/61566533057697/" target="_blank" rel="noopener" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z"></path></svg></a>
+  </div>
+</footer>
+
+<script src="js/zgody.js"></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>
