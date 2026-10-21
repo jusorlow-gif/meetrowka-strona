@@ -53,6 +53,7 @@ strong { font-weight: 500; }
 .btng:hover { background: var(--green-dark); border-color: var(--green-dark); color: #ffffff; }
 .btn2 { border-color: var(--green); color: var(--green); }
 .btn2:hover { background: var(--green); color: #ffffff; }
+.btn__ico { flex: none; margin-right: 9px; }
 .btn--big { min-height: 54px; padding: 0 30px; font-size: 16px; }
 .btn--line { background: transparent; color: var(--bordo); border-color: var(--bordo); }
 .btn--line:hover { background: var(--bordo); border-color: var(--bordo); color: #ffffff; }
