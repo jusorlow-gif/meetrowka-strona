@@ -50,4 +50,13 @@
       a.addEventListener('click', function (e) { e.preventDefault(); baner(); });
     });
   });
+
+  // Kliknięcie „Umów termin bezpłatnej kawy” = zdarzenie w GA4 i Pikselu (tylko po zgodzie)
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href*="calendar.app.google"]');
+    if (!a || !zaladowane) return;
+    var miejsce = a.closest('footer') ? 'stopka' : 'strona';
+    gtag('event', 'umow_kawe', { strona: location.pathname, miejsce: miejsce, transport_type: 'beacon' });
+    if (window.fbq) fbq('track', 'Schedule');
+  });
 })();
