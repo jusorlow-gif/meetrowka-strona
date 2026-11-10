@@ -90,7 +90,7 @@
     },
     'domek-na-modulach': {
       tytul: 'Domek na modułach',
-      podpis: 'Projekt 2025. Wizualizacje we współpracy z arch. Piotrem Pawlakiem',
+      podpis: 'W trakcie realizacji. Projekt 2025. Wizualizacje we współpracy z arch. Piotrem Pawlakiem',
       alt: 'Domek na modułach – projekt Tiny House, wizualizacja',
       zdjecia: seria('domek-na-modulach', [1, 2, 3, 4, 5, 6])
     }
